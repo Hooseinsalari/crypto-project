@@ -1,0 +1,29 @@
+.container {
+    background-color: #f9f9f96e;
+    border-radius: 20px;
+}
+
+.container input {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    outline: none;
+    border: 2px gray solid;
+    width: 30%;
+    height: 20px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+
+.container input:hover {
+    box-shadow: 0 0 15px #000;
+    transition: 0.5s;
+}
+
+.container input:focus {
+    border: 2px rgb(47, 47, 168) solid;
+}
+
